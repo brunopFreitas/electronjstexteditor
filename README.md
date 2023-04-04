@@ -1,4 +1,4 @@
-# electronjstexteditor
+# ElectronJS Text Editor
 Electron JS text editor created by me
 
 ## Instructions
