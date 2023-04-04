@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <button type="button" id="newFile">New File</button>
+      <button type="button" id="openFile">Open a File</button>
+      <button type="button" id="saveFile">Save</button>
+      <button type="button" id="saveFileAs">Save as</button>
+    </div>
+    <div id="content" contenteditable="true"></div>
+    <!-- Open dialog box -->
+    <script src='./renderer.js'></script>
+  </body>
+</html>
